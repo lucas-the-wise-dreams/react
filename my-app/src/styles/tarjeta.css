@@ -1,0 +1,43 @@
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  box-shadow: 0 4px 8px #ccc;
+  color: #000000;
+}
+
+.full-card {
+  width: 100%;
+  max-height: auto;
+  min-width: 100%;
+  max-width: 100%;
+  background-color: #d3cee1 !important;
+  margin-left: 30px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  aspect-ratio: 4/4;
+  object-fit: contain;
+  color: #000000;
+}
+
+.card-content {
+  width: fit-content;
+  color: #000000;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #000000;
+}
