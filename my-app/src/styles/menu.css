@@ -1,0 +1,23 @@
+.container-menu {
+  width: fit-content !important;
+  background-color: violet;
+}
+
+li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:silver;
+  padding: 15px;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 25%;
+  border-radius: 10px;
+
+}
+
+.icon_holder{
+  display: flex;
+  flex-direction: row;
+  
+}
